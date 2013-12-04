@@ -1,0 +1,29 @@
++ a b d
+- c d a
+:= tmp13 tmp14
+jmp 10
+:= 0 a
+< i d tmp1
+jfalse 6 tmp1
++ a b tmp1
+jmp 2
+< a b tmp2
++ c d tmp3
+:= 0 a
+< i d tmp1
+jfalse 6 tmp1
++ a b tmp1
+- c d tmp3
++ a b d
+jmp 2
+jmp 3
+< a b tmp1
+jfalse 11 tmp1
++ a 1 tmp1
+:= tmp1 a
+jmp 6 
++ a b tmp1
+:= tmp13 tmp14
+jmp 10
+
+
